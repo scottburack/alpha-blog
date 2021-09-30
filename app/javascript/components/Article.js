@@ -21,14 +21,14 @@ class Article extends React.Component {
   }
 
   componentDidMount() {
-    this._timer = setInterval(function() {this.forceUpdate()}, 1000)
+    // this._timer = setInterval(function() {this.forceUpdate()}, 1000)
   }
 
   componentWillUnmount() {
-    if (this._timer) {
-      clearInterval(this._timer)
-      this._timer = null
-    }
+    // if (this._timer) {
+    //   clearInterval(this._timer)
+    //   this._timer = null
+    // }
   }
 }
 
