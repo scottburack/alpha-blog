@@ -8,7 +8,7 @@ class Colorpicker extends React.Component {
     super(props)
 
     this.state = {
-      selector: props.selector
+      selector: props.selector,
     }
 
     this.handleChange = this.handleChange.bind(this)
